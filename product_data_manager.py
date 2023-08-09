@@ -60,7 +60,7 @@ def compare_and_print_changes(existing_data, new_data):
         if existing_data[key] != new_data.get(key):
             print(f"{key.capitalize()} has changed from {existing_data[key]} to {new_data.get(key)} for {new_data['name']}.")
 
-
+#Test
 urls = [
     'https://www.hecht-garten.ch/do-it-garten/reinigungsgeraete/kehrmaschine/hecht-8101-bs-kehrmaschine/a-11908/',
     'https://www.hecht-garten.ch/do-it-garten/arbeitsbekleidung-arbeitsschutz/schutzbrille-gesichtsschutz/hecht-900106y-sicherheitsbrille-gelb_11947_3021/',
