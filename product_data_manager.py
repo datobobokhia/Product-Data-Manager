@@ -39,6 +39,9 @@ def update_products_data(product_urls, json_file):
 
     for url in product_urls:
         new_data = get_product_data(url)
+        if new_data.get('deleted'):
+            print(f"Product at URL {url} has been deleted.")
+            continue
         existing_data = existing_products_data.get(new_data['native_id']) if new_data.get('native_id') else None
         compare_and_print_changes(existing_data, new_data)
         new_products_data.append(new_data)
