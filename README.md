@@ -19,4 +19,4 @@ This Python script is designed to scrape product information from the Hecht Gart
 ## Contact Info
 
 * LinkedIn - https://www.linkedin.com/in/david-bobokhia/
-* Email - (mailto:dato.bobokhia@gmail.com)
+* Email - dato.bobokhia@gmail.com
