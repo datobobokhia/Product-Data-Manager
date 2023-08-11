@@ -14,7 +14,7 @@ This Python script is designed to scrape product information from the Hecht Gart
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Hecht-Garten-Product-Scraper.git
+   git clone https://github.com/datobobokhia/Product-Data-Manager.git
 
 ## Contact Info
 
